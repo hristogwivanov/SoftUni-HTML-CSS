@@ -1,0 +1,37 @@
+p.highlight {
+    color: rgb(81, 146, 243);
+    font-size: 1.1em;
+}
+
+div#special {
+    background-color: orange;
+    padding: 0em;
+}
+
+.teal {
+    color: rgb(74, 154, 185);
+}
+
+.red {
+    color: red;
+}
+
+.orange{
+    color: orange;
+}
+
+.blue{
+    color: blue;
+}
+
+.italic {
+    font-style: italic;
+}
+
+a.fancy{
+    border-bottom: 2px solid orange
+}
+
+a:not(.fancy):visited{
+    color:blue
+}
