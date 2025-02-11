@@ -18,6 +18,3 @@ span {
     color : red;
 }
 
-li:has(ul) {
-    list-style-type: none;
-}
