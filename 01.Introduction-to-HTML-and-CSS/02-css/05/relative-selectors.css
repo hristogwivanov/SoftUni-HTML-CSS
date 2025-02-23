@@ -1,0 +1,47 @@
+li {
+    display: block;
+}
+
+section p {
+    font-style: italic;
+}
+
+ul.nested > li {
+    display: list-item;
+    list-style: square;
+}
+
+article + article {
+    color: red;
+}
+
+h2.title~p {
+    color: rgb(6, 58, 204);
+}
+
+li.special+li>a {
+    background-color: red;
+    display: inline-block;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+section > p {
+    background-color: gold;
+}
+
+section article p {
+    background-color: lightblue;
+}
+
+article.highlighted p {
+    display: inline-block;
+    padding: 1em;
+    background-color: lightgreen;
+    border-radius: 50%;
+}
+
+article.highlighted+article>p {
+    font-weight: bold;
+}
