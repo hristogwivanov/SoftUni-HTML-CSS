@@ -1,0 +1,30 @@
+h1, h2, p {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.2;
+    color: #333;
+}
+
+header, section, footer {
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid #ddd;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+header nav ul li {
+    margin: 0 0.6em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    &:hover {
+        color: #999;
+    }
+}
+
